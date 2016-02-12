@@ -374,16 +374,21 @@ body {
   bottom: 32px;
   height: 32px;
   position: absolute;
-  right: 32px;
-  width: 32px; }
-  /* line 34, site.css.scss */
+  right: 32px; }
+  /* line 33, site.css.scss */
   .things_and_stuff a {
-    display: block;
+    display: inline-block;
     height: 100%;
     outline: 0; }
-  /* line 41, site.css.scss */
-  .things_and_stuff:hover #taco {
-    fill: #007bb6; }
-  /* line 42, site.css.scss */
-  .things_and_stuff:hover #bell {
-    fill: #fff; }
+    /* line 38, site.css.scss */
+    .things_and_stuff a.pizza {
+      margin-right: 4px; }
+      /* line 41, site.css.scss */
+      .things_and_stuff a.pizza:hover #fish_taco {
+        fill: #444; }
+    /* line 45, site.css.scss */
+    .things_and_stuff a.burger:hover #taco {
+      fill: #007bb6; }
+    /* line 46, site.css.scss */
+    .things_and_stuff a.burger:hover #bell {
+      fill: #fff; }
