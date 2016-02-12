@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".me").fadeIn(1e3),$(".things_and_stuff").fadeIn(1e3)});
